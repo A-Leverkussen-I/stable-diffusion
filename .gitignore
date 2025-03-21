@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch and TensorFlow checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.h5
+
+# Stable Diffusion model files
+models/
+*.safetensors
+*.pt
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Git-specific files
+*.orig
+*.rej
+
+# Generated files
+outputs/
+samples/
